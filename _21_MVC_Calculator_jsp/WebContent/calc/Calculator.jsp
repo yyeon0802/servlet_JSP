@@ -7,7 +7,7 @@
 <title>계산기</title>
 </head>
 <body>
-	<h2>jsp 계산기</h2>
+	<h2>jsp 계산기_2</h2>
 	<form action="Calculator.jsp" method="get">
 		<input type="text" name="v1" size="4" value="">
 		<select name="op">

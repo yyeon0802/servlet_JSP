@@ -7,6 +7,6 @@
 <title>Hello</title>
 </head>
 <body>
-	<p>안녕하세요</p>
+	<p>안녕하세요!</p>
 </body>
 </html>
