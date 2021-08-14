@@ -7,7 +7,7 @@ import java.util.Date;
  * MVC아키텍처에서 이 VO로 값을 주고 받을 때는 이것을
  * DTO(Data Transfer Object)라고도 부른다.
  * 
- * VO는 값을 나타내는 필드와
+ * VO는 값을 나타내는 필드와,
  * Getters/Setters로 이루어진다.
  * 
  * 1) setter의 리턴형이 void이면 아래처럼 호출한다.

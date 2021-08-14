@@ -19,7 +19,7 @@ public class MemberAddServlet extends HttpServlet{
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		// 내가 전송하는 데이터를 utf-8로 코드셋을 처리해라
+		// 내가 전송하는 데이터를 utf-8로 코드셋을 처리해라!
 		resp.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = resp.getWriter();
 		out.println("<html><head><title>회원 등록</title></head>");
