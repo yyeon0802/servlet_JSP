@@ -27,7 +27,7 @@ public class MemberListServlet extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		Connection conn = null;	// MySQL 연결담당
-		Statement stmt = null;	// SQL문 담당
+		Statement stmt = null;	// SQL문 담당함
 		ResultSet rs = null;	// SELECT문의 결과 담당
 		
 		final String sqlSelect = "SELECT mno,mname,email,cre_date" + "\r\n" +
@@ -96,7 +96,7 @@ public class MemberListServlet extends HttpServlet{
 			 *              다시 요청이 돌아오지 않는다
 			 * 2) include : 실행할 동안 제어권을 줬다가
 			 *              처리가 끝나면 다시 넘겨 받는다
-			 *              마지막 확인은 내가 처리한다
+			 *              마지막 확인은 내가 처리한다.
 			 * */
 			PrintWriter out = resp.getWriter();
 			out.println("<p>MemberListServlet-End</p>");

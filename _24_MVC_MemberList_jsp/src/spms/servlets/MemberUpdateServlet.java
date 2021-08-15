@@ -92,7 +92,7 @@ public class MemberUpdateServlet extends HttpServlet{
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		// 현재 filter에서 전처리
+		// 현재 filter에서 전처리.
 		//req.setCharacterEncoding("UTF-8");
 		Connection conn = null;
 		PreparedStatement stmt = null;

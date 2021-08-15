@@ -30,7 +30,7 @@ public class MemberDeleteServlet extends HttpServlet {
 		String pwd = sc.getInitParameter("password");
 		
 		try {
-			// 1) MySQL 제어 객체를 로딩
+			// 1) MySQL 제어 객체를 로딩함
 			Class.forName(driver);
 			// 2) MySQL과 연결
 			conn = DriverManager.getConnection(url, id, pwd);
