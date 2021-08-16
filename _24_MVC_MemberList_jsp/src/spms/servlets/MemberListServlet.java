@@ -52,7 +52,7 @@ public class MemberListServlet extends HttpServlet{
 			resp.setContentType("text/html; charset=UTF-8"); // 먼저 호출
 			
 			/* MySQL 서버로부터 테이블 데이터를 가져와  vo객체를 생성하고
-			 jsp에 객체를 공유한다.
+			 jsp에 객체를 공유한다. 그후 
 			 jsp로 요청을 전달한다.
 			*/
 			
