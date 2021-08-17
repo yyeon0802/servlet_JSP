@@ -45,7 +45,7 @@ public class MemberAddServlet extends HttpServlet{
 		
 		// 숫자/영문의 코드셋에 영향을 받지 않는다
 		// 브라우저에서 utf-8로 보낸 한글은 utf-8로 처리해야 한다	
-		// 현재 filter에서 전처리
+		// 현재 filter에서 전처리한다.
 		//req.setCharacterEncoding("UTF-8");
 		
 		Connection conn = null;
