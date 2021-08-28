@@ -20,7 +20,7 @@ public class MemberDeleteServlet extends HttpServlet {
 	public void doGet(
 			HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		Connection conn = null;
+		Connection conn = null; //연결을 위한 생성
 		Statement stmt = null;
 		
 		ServletContext sc = this.getServletContext();
